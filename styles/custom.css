@@ -1,3 +1,19 @@
+.bg-indigo{
+  background-color: var(--bs-indigo);
+  color: white;
+}
+
+.bg-yellow{
+    background-color: var(--bs-yellow);
+    color:white;
+}
+
+.bg-purple{
+    background-color: var(--bs-purple);
+    color:white;
+}
+
+
 /* Configuration Générale */
 body {
     font-family: 'Inter', sans-serif;
@@ -173,4 +189,27 @@ footer {
 [data-bs-theme="dark"] .timeline-item p, 
 [data-bs-theme="dark"] .timeline-item li {
     color: #ccc;
+}
+
+
+.skill-card{
+  background: #ffffff;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+[data-bs-theme="dark"] .skill-card{
+  background: #1e1e1e;
+}
+
+.skill-card img{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.skill-card:hover{
+  transform: scale(1.05);
 }

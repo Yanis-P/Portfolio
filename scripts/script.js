@@ -41,7 +41,7 @@ btn.addEventListener("click", function () {
 });
 
 // Animation des barres de compétences
-const observer = new IntersectionObserver((entries) => {
+/*const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.style.width = entry.target.getAttribute('aria-valuenow') + '%';
@@ -52,4 +52,4 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.progress-bar').forEach(bar => {
     bar.style.width = '0%'; // On force à 0 au départ
     observer.observe(bar);
-});
+});*/
